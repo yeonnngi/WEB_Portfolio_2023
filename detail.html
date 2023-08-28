@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/detail.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="icon" sizes="65x65" type="image/png" href="./images/favicon.png">
+
+  <!-- font -->
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/beliau" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/trial-oceanic" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/fifty-holliwing" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="./js/jquery-3.7.0.min.js"></script>
+
+  <!-- mousewheel -->
+  <script src="./js/jquery.mousewheel.min.js"></script>
+
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+
+  <!-- scrollTo -->
+  <script src="./js/jquery.scrollTo.min.js"></script>
+
+  <!-- perfect-scrollbar -->
+  <script src="assets/js/perfect-scrollbar-min.js"></script>
+
+  <!-- script -->
+  <script src="./js/detail.js" defer></script>
+  <title>Projects</title>
+</head>
+
+
+<body>
+  <!-- //mouse cursor -->
+  <div id="circleCursor"></div>
+
+  <div class="haggen_modal">
+    <div class="modal_proposal">
+      <div class="modal_proposal_wrap">
+        <div class="proposal_close">
+          <a href="#"><i class="fas fa-times"></i></a>
+        </div>
+        <iframe width="100%"  src="./pdf/UIUXProposal_HaggenDaz.pdf"></iframe>
+      </div><!-- //modal_proposal_wrap -->
+    </div><!-- //modal_proposal -->
+
+    <div class="modal_code">
+      <div class="modal_code_wrap">
+        <div class="code_close">
+          <a href="#"><i class="fas fa-times"></i></a>
+        </div><!-- //code_close -->
+
+        <div class="code_tab engA">
+          <ul>
+            <li class="slick_title active">Slick</li>
+            <li class="scroll_title">Scroll Top</li>
+            <li class="ham_title">Ham Menu</li>
+          </ul>
+        </div><!-- //code_tab -->
+
+        <div class="code_detail kor">
+          <ul>
+            <li class="slick active">
+              <p>- Slick을 사용한 배너 슬라이드 영역 구성</p>
+              <p>- 반응형 콘텐츠 해상도를 위한 picture 사용</p>
+              <div class="detail_img">
+                <div class="site_img">
+                  <img src="./images/hd_slick.gif" alt="hd_slick">
+                </div><!-- //detail_img -->
+
+                <div class="code_img">
+                  <img src="./images/carbon_hd_slick.png" alt="hd_slick">
+                </div><!-- //code_img -->
+              </div><!-- //detail_img -->
+            </li><!-- //slick -->
+
+            <li class="scroll">
+              <p>- scrollTop과 delay 함수를 사용하여 프로모션 콘텐츠 순차 재생</p>
+              <p>- scrollTop을 사용한 탑버튼 스크롤 이벤트 적용</p>
+              <div class="detail_img">
+                <div class="site_img">
+                  <img src="./images/hd_scroll.gif" alt="hd_scroll">
+                </div><!-- //detail_img -->
+
+                <div class="code_img">
+                  <img src="./images/carbon_hd_scroll.png" alt="hd_scroll">
+                </div><!-- //code_img -->
+              </div><!-- //detail_img -->
+            </li><!-- //scroll -->
+
+            <li class="ham">
+              <p>- addClass, removeClass와 index를 사용한 탭 메뉴 구현</p>
+              <div class="detail_img">
+                <div class="site_img">
+                  <img src="./images/hd_tab.gif" alt="hd_tab">
+                </div><!-- //detail_img -->
+
+                <div class="code_img">
+                  <img src="./images/carbon_hd_tab.png" alt="carbon_hd_tab">
+                </div><!-- //code_img -->
+              </div><!-- //detail_img -->
+            </li><!-- //ham -->
+          </ul>
+        </div><!-- //code_detail -->
+
+
+      </div><!-- //modal_code_wrap -->
+    </div><!-- //modal_code -->
+
+  </div><!-- //haggen_modal -->
+
+
+
+  <header class="header engA">
+    <div class="header_box">
+      <div class="lnb">
+        <ul>
+          <li class="haggenDaz_title li_on">
+            <a href="#">Haggen Daz</a>
+          </li>
+
+          <li class="ik_title">
+            <a href="#">IK Lightening</a>
+          </li>
+
+          <li class="login_title">
+            <a href="#">Login System</a>
+          </li>
+
+          <li class="react_title">
+            <a href="#">React</a>
+          </li>
+        </ul>
+      </div><!-- //lnb -->
+
+      <div class="detail_title">
+        <div class="title_icon">
+          <img src="./images/smile_emoticon.png" alt="smile">
+        </div>
+        <a href="./index.html">
+          <p class="main_title">
+            <!-- 👋☘︎ܤ -->Projects
+          </p>
+        </a>
+      </div><!-- //detail_title -->
+    </div><!-- //header_box -->
+  </header>
+
+  <div id="wrapper">
+    <div class="container">
+      <div class="container_inner engA">
+        <div class="content">
+
+          <div class="haggenDaz project on">
+            <div class="project_box">
+              <div class="topArea">
+                <div class="topArea_inner">
+                  <div class="project_img top_left">
+                    <img src="./images/haggen.png" alt="haggenDaz">
+                  </div>
+
+                  <div class="top_right kor">
+                    <div class="right_box">
+                      <ul class="right_title">
+                        <li>개발범위</li>
+                        <li>디바이스</li>
+                        <li>해상도</li>
+                        <li>개발언어</li>
+                        <li>소요시간</li>
+                        <li>인사이트</li>
+                      </ul>
+
+                      <ul class="right_detail">
+                        <li>메인 페이지, 카테고리 서브 페이지</li>
+                        <li><span class="reponsive">반응형</span>&nbsp; PC, &nbsp;Tablet, &nbsp;Mobile</li>
+                        <li>PC : 1180px / Tablet : 768px / Mobile : 100%</li>
+                        <li><span class="html lang">HTML5</span>, &nbsp;<span class="css lang">CSS3</span>, &nbsp;<span
+                            class="jQuery lang">jQuery</span>
+                        </li>
+                        <li>2023. 04 ~ 2023. 05 (3주)</li>
+                        <li class="insight">
+                          <ul>
+                            <li>- &nbsp;움직임이 있는 모든 작업을 CSS로 구현한 후 <span>jQuery로
+                                간편화</span>하는<br>&nbsp;&nbsp;&nbsp;&nbsp;작업을
+                              통해 CSS와 제이쿼리가 가진
+                              움직임을 구현하는 방법들을<br>&nbsp;&nbsp;&nbsp;&nbsp;더욱 잘
+                              이해할 수
+                              있었습니다.</li>
+                            <li>
+                              - &nbsp;반응형 프로젝트로 <span>기기별 해상도</span>를 파악하는데 좋은 공부가
+                              되었으며<br>&nbsp;&nbsp;&nbsp;&nbsp;<span>미디어쿼리</span> 기능과 친해질 수 있었습니다.
+                            </li>
+                          </ul>
+                        </li><!-- //insight -->
+                      </ul><!-- //left_detail -->
+                    </div><!-- //left_box -->
+                  </div><!-- //top_left -->
+                </div><!-- //topArea_inner -->
+              </div><!-- //topArea -->
+
+              <div class="bottomArea">
+                <div class="hdConcept concept">
+                  <div class="concept_inner">
+                    <div class="concept_top">
+                      <h1>Haggen Daz
+                        <!-- <span class="kor"> [반응형 웹사이트 리뉴얼]</span> -->
+                      </h1>
+                      <h2 class="kor">반응형 웹사이트 리뉴얼</h2>
+                    </div><!-- //concept_top -->
+
+                    <div class="concept_bottom">
+                      <h3 class="concept_title">Concept</h3>
+                      <p class="kor concept_detail">우리와 친숙한 브랜드 중 운영되고 있는 사이트는 다소 친절하지 않은 곳을 선정하여 <span>반응형 리뉴얼
+                          작업</span>을
+                        진행했습니다.<br>하겐다즈 기존 웹 사이트를 리뉴얼한 프로젝트로 <span>기획안부터 디자인 시안, 프로토타입까지 모두 혼자 힘으로</span> 해보았던
+                        작업입니다.<br><br>
+                        <!-- 메인 페이지와 상품 카테고리를 소개하는 서브페이지로 구축하였고, jQuery와 플러그인을 활용해 각 요소의 움직임을 간결하게 표현할 수 있었습니다.  -->작업에
+                        쓰인 이미지들은 <span>모두 직접 편집 및 재가공</span>한 이미로 사용하였습니다.</p>
+                    </div><!-- //concept_bottom -->
+                  </div><!-- //concept_inner -->
+
+                  <div class="view_btn">
+                    <ul>
+                      <li class="proposal_open">View Proposal</li>
+                      <li class="code_open">View Code</li>
+                      <li><a href="https://yeonnngi.github.io/Haagen-Daz_renewal/" target="_blank">View Live</a></li>
+                      <li><a href="https://github.com/yeonnngi/Haagen-Daz_renewal" target="_blank">View Github</a>
+                      </li>
+                    </ul>
+                  </div><!-- //view_btn -->
+                </div><!-- //hdConcept -->
+              </div><!-- //bottomArea -->
+            </div><!-- //project_box -->
+          </div><!-- //project haggenDaz -->
+
+
+
+          <div class="ikLightening project">
+            <div class="project_box">
+              <div class="topArea">
+                <div class="topArea_inner">
+                  <div class="project_img top_left">
+                    <img src="./images/ikLightening.png" alt="ikLightening">
+                  </div>
+
+                  <div class="top_right kor">
+                    <div class="right_box">
+                      <ul class="right_title">
+                        <li>개발범위</li>
+                        <li>디바이스</li>
+                        <li>해상도</li>
+                        <li>개발언어</li>
+                        <li>소요시간</li>
+                        <li>인사이트</li>
+                      </ul>
+
+                      <ul class="right_detail">
+                        <li>메인 페이지, 서브 페이지, 디테일 페이지</li>
+                        <li><span class="reponsive">적응형</span>&nbsp; PC</li>
+                        <li>1420px</li>
+                        <li><span class="html lang">HTML5</span>, &nbsp;<span class="css lang">CSS3</span>, &nbsp;<span
+                          class="js lang">JavaScript, &nbsp;<span
+                            class="jQuery lang">jQuery, &nbsp;<span
+                            class="parcel lang">Parcel</span>, &nbsp;<span
+                            class="scss lang">SCSS</span>
+                        </li>
+                        <li>2023. 05 ~ 2023. 06 (4주)</li>
+                        <li class="insight">
+                          <ul>
+                            <li>- &nbsp;움직임이 있는 모든 작업을 CSS로 구현한 후 <span>jQuery로
+                                간편화</span>하는<br>&nbsp;&nbsp;&nbsp;&nbsp;작업을
+                              통해 CSS와 제이쿼리가 가진
+                              움직임을 구현하는 방법들을<br>&nbsp;&nbsp;&nbsp;&nbsp;더욱 잘
+                              이해할 수
+                              있었습니다.</li>
+                            <li>
+                              - &nbsp; <span>바닐라 자바스크립트로 동적 데이터를 생성</span>하는 방법으로 되었으며<br>&nbsp;&nbsp;&nbsp;&nbsp;<span>미디어쿼리</span> 기능과 친해질 수 있었습니다.
+                            </li>
+                          </ul>
+                        </li><!-- //insight -->
+                      </ul><!-- //left_detail -->
+                    </div><!-- //left_box -->
+                  </div><!-- //top_left -->
+                </div><!-- //topArea_inner -->
+              </div><!-- //topArea -->
+
+              <div class="bottomArea">
+                <div class="hdConcept concept">
+                  <div class="concept_inner">
+                    <div class="concept_top kor">
+                      <h1>일광전구
+                        <!-- <span class="kor"> [반응형 웹사이트 리뉴얼]</span> -->
+                      </h1>
+                      <h2 class="kor">적응형 웹사이트 리뉴얼</h2>
+                    </div><!-- //concept_top -->
+
+                    <div class="concept_bottom">
+                      <h3 class="concept_title">Concept</h3>
+                      <p class="kor concept_detail">우리와 친숙한 브랜드 중 운영되고 있는 사이트는 다소 친절하지 않은 곳을 선정하여 <span>반응형 리뉴얼
+                          작업</span>을
+                        진행했습니다.<br>하겐다즈 기존 웹 사이트를 리뉴얼한 프로젝트로 <span>기획안부터 디자인 시안, 프로토타입까지 모두 혼자 힘으로</span> 해보았던
+                        작업입니다.<br><br>
+                        <!-- 메인 페이지와 상품 카테고리를 소개하는 서브페이지로 구축하였고, jQuery와 플러그인을 활용해 각 요소의 움직임을 간결하게 표현할 수 있었습니다.  -->작업에
+                        쓰인 이미지들은 <span>모두 직접 편집 및 재가공</span>한 이미로 사용하였습니다.</p>
+                    </div><!-- //concept_bottom -->
+                  </div><!-- //concept_inner -->
+
+                  <div class="view_btn">
+                    <ul>
+                      <li class="proposal_open">View Proposal</li>
+                      <li class="code_open">View Code</li>
+                      <li><a href="https://yeonnngi.github.io/Haagen-Daz_renewal/" target="_blank">View Live</a></li>
+                      <li><a href="https://github.com/yeonnngi/Haagen-Daz_renewal" target="_blank">View Github</a>
+                      </li>
+                    </ul>
+                  </div><!-- //view_btn -->
+                </div><!-- //hdConcept -->
+              </div><!-- //bottomArea -->
+            </div><!-- //project_box -->
+          </div><!-- //project ikLightening -->
+
+
+
+          <div class="loginSystem project">
+            <div class="project_box">
+              <div class="topArea">
+                <div class="topArea_inner">
+                  <div class="project_img top_left">
+                    <img src="./images/haggen.png" alt="haggenDaz">
+                  </div>
+
+                  <div class="top_right kor">
+                    <div class="right_box">
+                      <ul class="right_title">
+                        <li>개발범위</li>
+                        <li>디바이스</li>
+                        <li>해상도</li>
+                        <li>개발언어</li>
+                        <li>소요시간</li>
+                        <li>인사이트</li>
+                      </ul>
+
+                      <ul class="right_detail">
+                        <li>메인 페이지, 카테고리 서브 페이지</li>
+                        <li><span class="reponsive">반응형</span>&nbsp; PC, &nbsp;Tablet, &nbsp;Mobile</li>
+                        <li>PC : 1180px / Tablet : 768px / Mobile : 100%</li>
+                        <li><span class="html lang">HTML5</span>, &nbsp;<span class="css lang">CSS3</span>, &nbsp;<span
+                            class="jQuery lang">jQuery</span>
+                        </li>
+                        <li>2023. 04 ~ 2023. 05 (3주)</li>
+                        <li class="insight">
+                          <ul>
+                            <li>- &nbsp;움직임이 있는 모든 작업을 CSS로 구현한 후 <span>jQuery로
+                                간편화</span>하는<br>&nbsp;&nbsp;&nbsp;&nbsp;작업을
+                              통해 CSS와 제이쿼리가 가진
+                              움직임을 구현하는 방법들을<br>&nbsp;&nbsp;&nbsp;&nbsp;더욱 잘
+                              이해할 수
+                              있었습니다.</li>
+                            <li>
+                              - &nbsp;반응형 프로젝트로 <span>기기별 해상도</span>를 파악하는데 좋은 공부가
+                              되었으며<br>&nbsp;&nbsp;&nbsp;&nbsp;<span>미디어쿼리</span> 기능과 친해질 수 있었습니다.
+                            </li>
+                          </ul>
+                        </li><!-- //insight -->
+                      </ul><!-- //left_detail -->
+                    </div><!-- //left_box -->
+                  </div><!-- //top_left -->
+                </div><!-- //topArea_inner -->
+              </div><!-- //topArea -->
+
+              <div class="bottomArea">
+                <div class="hdConcept concept">
+                  <div class="concept_inner">
+                    <div class="concept_top">
+                      <h1>Haggen Daz
+                        <!-- <span class="kor"> [반응형 웹사이트 리뉴얼]</span> -->
+                      </h1>
+                      <h2 class="kor">반응형 웹사이트 리뉴얼</h2>
+                    </div><!-- //concept_top -->
+
+                    <div class="concept_bottom">
+                      <h3 class="concept_title">Concept</h3>
+                      <p class="kor concept_detail">우리와 친숙한 브랜드 중 운영되고 있는 사이트는 다소 친절하지 않은 곳을 선정하여 <span>반응형 리뉴얼
+                          작업</span>을
+                        진행했습니다.<br>하겐다즈 기존 웹 사이트를 리뉴얼한 프로젝트로 <span>기획안부터 디자인 시안, 프로토타입까지 모두 혼자 힘으로</span> 해보았던
+                        작업입니다.<br><br>
+                        <!-- 메인 페이지와 상품 카테고리를 소개하는 서브페이지로 구축하였고, jQuery와 플러그인을 활용해 각 요소의 움직임을 간결하게 표현할 수 있었습니다.  -->작업에
+                        쓰인 이미지들은 <span>모두 직접 편집 및 재가공</span>한 이미로 사용하였습니다.</p>
+                    </div><!-- //concept_bottom -->
+                  </div><!-- //concept_inner -->
+
+                  <div class="view_btn">
+                    <ul>
+                      <li class="proposal_open">View Proposal</li>
+                      <li class="code_open">View Code</li>
+                      <li><a href="https://yeonnngi.github.io/Haagen-Daz_renewal/" target="_blank">View Live</a></li>
+                      <li><a href="https://github.com/yeonnngi/Haagen-Daz_renewal" target="_blank">View Github</a>
+                      </li>
+                    </ul>
+                  </div><!-- //view_btn -->
+                </div><!-- //hdConcept -->
+              </div><!-- //bottomArea -->
+            </div><!-- //project_box -->
+          </div><!-- //project loginSystem -->
+
+
+
+          <div class="react project">
+            <div class="project_box">
+              <div class="topArea">
+                <div class="topArea_inner">
+                  <div class="project_img top_left">
+                    <img src="./images/haggen.png" alt="haggenDaz">
+                  </div>
+
+                  <div class="top_right kor">
+                    <div class="right_box">
+                      <ul class="right_title">
+                        <li>개발범위</li>
+                        <li>디바이스</li>
+                        <li>해상도</li>
+                        <li>개발언어</li>
+                        <li>소요시간</li>
+                        <li>인사이트</li>
+                      </ul>
+
+                      <ul class="right_detail">
+                        <li>메인 페이지, 카테고리 서브 페이지</li>
+                        <li><span class="reponsive">반응형</span>&nbsp; PC, &nbsp;Tablet, &nbsp;Mobile</li>
+                        <li>PC : 1180px / Tablet : 768px / Mobile : 100%</li>
+                        <li><span class="html lang">HTML5</span>, &nbsp;<span class="css lang">CSS3</span>, &nbsp;<span
+                            class="jQuery lang">jQuery</span>
+                        </li>
+                        <li>2023. 04 ~ 2023. 05 (3주)</li>
+                        <li class="insight">
+                          <ul>
+                            <li>- &nbsp;움직임이 있는 모든 작업을 CSS로 구현한 후 <span>jQuery로
+                                간편화</span>하는<br>&nbsp;&nbsp;&nbsp;&nbsp;작업을
+                              통해 CSS와 제이쿼리가 가진
+                              움직임을 구현하는 방법들을<br>&nbsp;&nbsp;&nbsp;&nbsp;더욱 잘
+                              이해할 수
+                              있었습니다.</li>
+                            <li>
+                              - &nbsp;반응형 프로젝트로 <span>기기별 해상도</span>를 파악하는데 좋은 공부가
+                              되었으며<br>&nbsp;&nbsp;&nbsp;&nbsp;<span>미디어쿼리</span> 기능과 친해질 수 있었습니다.
+                            </li>
+                          </ul>
+                        </li><!-- //insight -->
+                      </ul><!-- //left_detail -->
+                    </div><!-- //left_box -->
+                  </div><!-- //top_left -->
+                </div><!-- //topArea_inner -->
+              </div><!-- //topArea -->
+
+              <div class="bottomArea">
+                <div class="hdConcept concept">
+                  <div class="concept_inner">
+                    <div class="concept_top">
+                      <h1>Haggen Daz
+                        <!-- <span class="kor"> [반응형 웹사이트 리뉴얼]</span> -->
+                      </h1>
+                      <h2 class="kor">반응형 웹사이트 리뉴얼</h2>
+                    </div><!-- //concept_top -->
+
+                    <div class="concept_bottom">
+                      <h3 class="concept_title">Concept</h3>
+                      <p class="kor concept_detail">우리와 친숙한 브랜드 중 운영되고 있는 사이트는 다소 친절하지 않은 곳을 선정하여 <span>반응형 리뉴얼
+                          작업</span>을
+                        진행했습니다.<br>하겐다즈 기존 웹 사이트를 리뉴얼한 프로젝트로 <span>기획안부터 디자인 시안, 프로토타입까지 모두 혼자 힘으로</span> 해보았던
+                        작업입니다.<br><br>
+                        <!-- 메인 페이지와 상품 카테고리를 소개하는 서브페이지로 구축하였고, jQuery와 플러그인을 활용해 각 요소의 움직임을 간결하게 표현할 수 있었습니다.  -->작업에
+                        쓰인 이미지들은 <span>모두 직접 편집 및 재가공</span>한 이미로 사용하였습니다.</p>
+                    </div><!-- //concept_bottom -->
+                  </div><!-- //concept_inner -->
+
+                  <div class="view_btn">
+                    <ul>
+                      <li class="proposal_open">View Proposal</li>
+                      <li class="code_open">View Code</li>
+                      <li><a href="https://yeonnngi.github.io/Haagen-Daz_renewal/" target="_blank">View Live</a></li>
+                      <li><a href="https://github.com/yeonnngi/Haagen-Daz_renewal" target="_blank">View Github</a>
+                      </li>
+                    </ul>
+                  </div><!-- //view_btn -->
+                </div><!-- //hdConcept -->
+              </div><!-- //bottomArea -->
+            </div><!-- //project_box -->
+          </div><!-- //project react -->
+
+        </div><!-- //content -->
+      </div><!-- //container_inner -->
+    </div><!-- //container contact -->
+  </div><!-- //#wrapper -->
+
+</body>
+
+</html>
