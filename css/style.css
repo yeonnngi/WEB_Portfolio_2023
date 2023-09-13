@@ -898,8 +898,9 @@ p.txt_preview {
 
 .projects .ballContainer {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 926px;
+  height: 800px;
+  margin: 0 auto;
 }
 
 .projects .proBall {
@@ -951,8 +952,8 @@ p.txt_preview {
 
 .projects .ballA {
   background-color: #e0524b;
-  top: 90px;
-  left: 340px;
+  top: 100px;
+  left: 70px;
   width: 295px;
   height: 275px;
   transform: rotate(-5deg);
@@ -965,7 +966,7 @@ p.txt_preview {
 .projects .ballB {
   background-color: #f4be61;
   top: 285px;
-  left: 580px;
+  left: 340px;
   width: 305px;
   height: 275px;
   transform: rotate(10deg);
@@ -977,8 +978,8 @@ p.txt_preview {
 
 .projects .ballC {
   background-color: #3d7c69;
-  top: -10px;
-  right: 580px;
+  top: 0px;
+  right: 320px;
   width: 275px;
   height: 255px;
   transform: rotate(-5deg);
@@ -995,7 +996,7 @@ p.txt_preview {
 .projects .ballD {
   background-color: #34a9bd;
   top: 130px;
-  right: 320px;
+  right: 50px;
   width: 290px;
   height: 260px;
   transform: rotate(-10deg);
